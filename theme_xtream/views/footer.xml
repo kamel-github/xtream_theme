@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <template id="theme_xtream_footer" inherit_id="website.layout" name="Xtream Footer">
+            <xpath expr="//div[@id='footer']" position="replace">
+                <section class="body_section">
+					<section class="card-footer">
+						<div class="footer_content">
+							<div class="container-fluid">
+
+
+
+								<div class="col-lg-12 card-footer-pos" style="padding-left: 0px;">
+									<div class="col-lg-6" style="padding-left: 0px;">
+										<div class="input-group md-form form-sm form-2">
+											<h4 class="subscribe">Abonnez-vous!</h4>
+											<input class="form-control red-border" type="text" placeholder="Saisissez votre email"
+												   aria-label="Your_email_here"/>
+
+											<span class="btn-footer" id="basic-text1">Inscription</span>
+
+										</div>
+									</div>
+									<div class="col-lg-6 footer_icon">
+										<p>Rester connecté</p>
+										<a href="#">
+											<span class="fa fa-pinterest"/>
+										</a>
+										<a href="#">
+											<span class="fa fa-linkedin"/>
+										</a>
+										<a href="#">
+											<span class="fa fa-facebook"/>
+										</a>
+										<a href="#">
+											<span class="fa fa-twitter"/>
+										</a>
+									</div>
+								</div>
+								<div class="row footer-desk">
+									<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+										<div class="wrapper_head">
+											
+												<div class="title-f">
+													Wamia Marketplace
+
+												</div>
+											
+											<div class="made_by">
+												<span style="font-weight: 400;">WAMIA est la première</span>
+												<strong>Marketplace</strong>
+												<span style="font-weight: 400;"></span>
+												<strong>tunisienne</strong>
+												<span style="font-weight: 400;">
+													, qui a été fondée en 2017 par une équipe jeune et pluridisciplinaire,
+													passionnée par la recherche d'innovations et les
+												</span>
+												<strong>nouvelles tendances</strong>
+												<span style="font-weight: 400;">.</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+										<div class="footer_links">
+											<div class="title-f">
+												A propos
+
+											</div>
+											<ul>
+												<li class="scale-up-ver-center">
+													<a href="#">Qui sommes-nous</a>
+												</li>
+												<li class="scale-up-ver-center">
+													<a href="#">Conditions d'utilisation</a>
+												</li>
+												<li class="scale-up-ver-center">
+													<a href="#">Contactez-Nous</a>
+												</li>
+												<li class="scale-up-ver-center">
+													<a href="#">Returns</a>
+												</li>
+												<li class="scale-up-ver-center">
+													<a href="#">Nos Magasins</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+										<div class="footer_links">
+											<div class="title-f">
+												Service Client  Livraison
+
+											</div>
+											<ul>
+												<li class="scale-up-ver-center">
+													<a href="#">Service clients</a>
+												</li>
+												<li class="scale-up-ver-center">
+													<a href="#">Solution de livraison</a>
+												</li>
+												<li class="scale-up-ver-center">
+													<a href="#">Politique d'échange</a>
+												</li>
+
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+										<div class="footer_links">
+											<div class="title-f">
+												WAMIA
+
+											</div>
+											<ul>
+												<li class="scale-up-ver-center">
+													<a href="#">Vendre sur Wamia</a>
+												</li>
+												<li class="scale-up-ver-center">
+													<a href="#">Wamia Fulfillment</a>
+												</li>
+
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+										<div class="wrapper_head">
+											
+												<div class="title-f">
+													CONTACTEZ-NOUS
+
+												</div>
+											
+											<div class="made_by">
+												<span style="font-weight: 400;">Appelez nous</span>
+												<strong>7/7</strong>:36 011 300
+												<span style="font-weight: 400;"></span>
+												<strong>Adresse </strong>
+												<span style="font-weight: 400;">
+													Derrière Mosquée el Rahmen Sahloul 2, Sousse
+													Rond point Rouabi Kalaa sghira, Sousse
+												</span>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						
+						
+						<div class="container-fluid footer-mobile " id="accordion">
+							<div class="row">
+								<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+									<div class="wrapper_head">
+
+										<div id="headingOne">
+											<div class="title-f title-cl" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+												Wamia Marketplace
+											</div>
+										</div>
+
+										<div id="collapseOne" class="collapse  made_by" aria-labelledby="headingOne" data-parent="#accordion">
+											<span style="font-weight: 400;">WAMIA est la première</span>
+											<strong>Marketplace</strong>
+											<span style="font-weight: 400;"></span>
+											<strong>tunisienne</strong>
+											<span style="font-weight: 400;">
+												, qui a été fondée en 2017 par une équipe jeune et pluridisciplinaire,
+												passionnée par la recherche d'innovations et les
+											</span>
+											<strong>nouvelles tendances</strong>
+											<span style="font-weight: 400;">.</span>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col-lg-2 col-md-4 col-sm-12 col-xs-12">
+									<div class="footer_links">
+
+										<div id="headingtwo">
+											<div class="title-f title-cl collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+												A propos
+											</div>
+										</div>
+										<ul id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+											<li class="scale-up-ver-center">
+												<a href="#">Qui sommes-nous</a>
+											</li>
+											<li class="scale-up-ver-center">
+												<a href="#">Conditions d'utilisation</a>
+											</li>
+											<li class="scale-up-ver-center">
+												<a href="#">Contactez-Nous</a>
+											</li>
+											<li class="scale-up-ver-center">
+												<a href="#">Returns</a>
+											</li>
+											<li class="scale-up-ver-center">
+												<a href="#">Nos Magasins</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+
+								<div class="col-lg-2 col-md-4 col-sm-12 col-xs-12">
+									<div class="footer_links">
+										<div id="headingthree">
+											<div class="title-f title-cl collapsed" data-toggle="collapse" data-target="#collapsethree" aria-expanded="false" aria-controls="collapsethree">
+												Service Client  Livraison
+											</div>
+										</div>
+										<ul id="collapsethree" class="collapse" aria-labelledby="headingthree" data-parent="#accordion">
+											<li class="scale-up-ver-center">
+												<a href="#">Service clients</a>
+											</li>
+											<li class="scale-up-ver-center">
+												<a href="#">Solution de livraison</a>
+											</li>
+											<li class="scale-up-ver-center">
+												<a href="#">Politique d'échange</a>
+											</li>
+
+										</ul>
+									</div>
+								</div>
+
+								<div class="col-lg-2 col-md-4 col-sm-12 col-xs-12">
+									<div class="footer_links">
+										<div id="headingfour">
+											<div class="title-f title-cl collapsed" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+												WAMIA
+											</div>
+										</div>
+										<ul id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordion">
+											<li class="scale-up-ver-center">
+												<a href="#">Vendre sur Wamia</a>
+											</li>
+											<li class="scale-up-ver-center">
+												<a href="#">Wamia Fulfillment</a>
+											</li>
+
+										</ul>
+									</div>
+								</div>
+
+								<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+									<div class="wrapper_head">
+										<div id="headingfive">
+											<div class="title-f title-cl collapsed" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+												CONTACTEZ-NOUS
+											</div>
+										</div>
+										<div id="collapsefive" class="collapse made_by" aria-labelledby="headingfive" data-parent="#accordion">
+											<span style="font-weight: 400;">Appelez nous</span>
+											<strong>7/7</strong>:36 011 300
+											<span style="font-weight: 400;"></span>
+											<strong>Adresse </strong>
+											<span style="font-weight: 400;">
+												Derrière Mosquée el Rahmen Sahloul 2, Sousse
+												Rond point Rouabi Kalaa sghira, Sousse
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+
+	
+
+						<div>
+							<div class="footer-block">
+								<div class="middle-bottom"> </div>
+								<p class="nav-footer-title">Electromenager:</p>
+								<div class="nav-footer-content">
+									<ul class="items nav-links hover-link01">
+										<li class="nav-link link-0">
+											<a href="">Petit Electromenager</a>
+										</li>
+										<li class="nav-link link-0">
+											<a href="">Petit dejeuner</a>
+										</li>
+										<li class="nav-link link-0">
+											<a href="">Appareil De cuisine</a>
+										</li>
+										<li class="nav-link link-0">
+											<a href="">Maison Entretien</a>
+										</li>
+										<li class="nav-link link-0">
+											<a href="">Appareil Coiffure</a>
+										</li>
+										<li class="nav-link last">
+											<a href="">Gros Electro</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="nav-footer">
+								<p class="nav-footer-title">Cuisine:</p>
+								<div class="nav-footer-content">
+									<ul class="items nav-links hover-link01">
+										<li class="nav-link link-0">
+											<a href="">Ustensile de Cuisine</a>
+										</li>
+										<li class="nav-link link-0">
+											<a href="">Casserole</a>
+										</li>
+										<li class="nav-link link-0">
+											<a href="">Service Table</a>
+										</li>
+										<li class="nav-link link-0">
+											<a href=""> Accessoire De Table</a>
+										</li>
+										<li class="nav-link link-0">
+											<a href="">Boite à gouter</a>
+										</li>
+										<li class="nav-link last">
+											<a href="">Thermos</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="nav-footer">
+								<p class="nav-footer-title">Bagagerie:</p>
+								<div class="nav-footer-content">
+									<ul class="items nav-links hover-link01">
+										<li class="nav-link link-0">
+											<a href="">Valise</a>
+										</li>
+										<li class="nav-link link-0">
+											<a href="">Coffrets Cadeaux</a>
+										</li>
+										<li class="nav-link link-0">
+											<a href="">Cartable</a>
+										</li>
+										<li class="nav-link link-0">
+											<a href="">Sac a Dos</a>
+										</li>
+										<li class="nav-link last">
+											<a href="">Porte gouter</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="nav-footer">
+								<p class="nav-footer-title">Mode:</p>
+								<div class="nav-footer-content">
+									<ul class="items nav-links hover-link01">
+										<li class="nav-link link-0">
+											<a href="">Robe</a>
+										</li>
+										<li class="nav-link link-0">
+											<a href="">Sacs</a>
+										</li>
+										<li class="nav-link link-0">
+											<a href=""> Lunette De Soleil</a>
+										</li>
+										<li class="nav-link link-0">
+											<a href="">Chaussures</a>
+										</li>
+										<li class="nav-link link-0">
+											<a href="">Bijouterie</a>
+										</li>
+										<li class="nav-link last">
+											<a href="">Maternité</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="nav-footer">
+								<p class="nav-footer-title">Beauté / Bien être:</p>
+								<div class="nav-footer-content">
+									<ul class="items nav-links hover-link01">
+										<li class="nav-link link-0">
+											<a href="">Maquillage</a>
+										</li>
+										<li class="nav-link link-0">
+											<a href="">Parfum</a>
+										</li>
+										<li class="nav-link link-0">
+											<a href="">Huiles et argiles</a>
+										</li>
+										<li class="nav-link link-0">
+											<a href="">Cosmétique BIO</a>
+										</li>
+										<li class="nav-link link-0">
+											<a href="">Parapharmacie</a>
+										</li>
+										<li class="nav-link last">
+											<a href="">Idée cadeaux</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						
+
+					</section>
+                </section>
+            </xpath>
+			
+        </template>
+    </data>
+</odoo>

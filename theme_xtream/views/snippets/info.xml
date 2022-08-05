@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<template id="information" name="info">
+		<section class="s_features pt32 pb32">
+			<div class="container-fluid">
+				<div class="col-lg-12 st-info" >
+
+					<div style="    margin-right: 10px;">
+						<a href="#">
+							<div class="col-lg-3 col-sm-6 col-xs-12 pt32 pb32 text-center o_colored_level">
+
+
+								<i class="fa fa-2x fa-photo rounded bg-o-color m-3"/>
+
+
+								<div>
+									<h3 class="text-bg">livraison gratuite</h3>
+									<p>
+										Pour tous commande sup à 100 Dt
+									</p>
+
+								</div>
+
+							</div>
+						</a>
+					</div>
+
+					<div style="    margin-right: 10px;">
+						<a href="#">
+							<div class="col-lg-3 col-sm-6 col-xs-12 pt32 pb32 text-center o_colored_level">
+
+
+								<i class="fa fa-2x fa-leaf rounded bg-o-color  m-3"/>
+
+								<div>
+									<h3 class="text-bg">Paiement sécurisé</h3>
+									<p>
+										Paiement en ligne 100% sécurisé
+									</p>
+								</div>
+
+							</div>
+						</a>
+					</div>
+
+					<div style="    margin-right: 10px;">
+						<a href="#">
+							<div class="col-lg-3 col-sm-6 col-xs-12 pt32 pb32 text-center o_colored_level">
+
+
+								<i class="fa fa-2x fa-leaf rounded bg-o-color m-3"/>
+
+								<div>
+									<h3 class="text-bg">satisfait ou remboursé</h3>
+									<p>
+										30 jours satisfait ou remboursé
+									</p>
+								</div>
+
+							</div>
+						</a>
+					</div>
+
+					<div style="    margin-right: 10px;">
+						<a href="#">
+							<div class="col-lg-3 col-sm-6 col-xs-12 pt32 pb32 text-center o_colored_level">
+
+
+								<i class="fa fa-2x fa-gear rounded bg-o-color  m-3"/>
+								<div>
+									<h3 class="text-bg">Service clients 7 jr/7</h3>
+									<p>
+										Appeler nos conseillers au 31011300
+									</p>
+								</div>
+
+							</div>
+
+
+						</a>
+					</div>
+				</div>
+			
+			</div>
+		</section>
+	</template>
+	
+	<template id="info_bar" inherit_id="website.snippets" name="info bar">
+		<xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+			<t t-snippet="theme_xtream.information"
+					t-thumbnail="/theme_xtream/static/src/img/bg-img/tes-1.jpg"/>
+		</xpath>
+	</template>
+
+</odoo>

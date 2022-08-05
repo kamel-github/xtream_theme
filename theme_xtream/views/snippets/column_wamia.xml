@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<template id="column_wamia" name="Columns wamia">
+		<section class="s_three_columns o_cc o_cc2 pt32 pb32" data-vcss="001">
+			<div class="container-fluid" style="display:flex;">
+				<div class="row" >
+
+
+
+
+					<img src="/theme_xtream/static/src/img/bg-img/slider1.png" class="img img-fluid mx-auto" alt=""/>
+				</div>
+			</div>
+				
+			
+		</section>
+	</template>
+	
+	<template id="column_bar" inherit_id="website.snippets" name="column bar">
+		<xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+			<t t-snippet="theme_xtream.column_wamia"
+					t-thumbnail="/theme_xtream/static/src/img/bg-img/tes-1.jpg"/>
+		</xpath>
+	</template>
+
+
+</odoo>

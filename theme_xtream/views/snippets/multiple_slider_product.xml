@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="test.css" type="text/css" ?>
+<odoo>
+
+	
+	<template id="multiple_product" name="multiple product">
+		
+		<section class="s_tabs pt48 test" data-vcss="001">
+	<div class="oe_structure oe_empty">
+				<section class="col-lg-4 s_text_block" style="display:block;">
+					<section id="s_dynamic_snippet_products" name="Products wamia" classe="test" >
+						<div classe="row" style="display:block!important;"> 
+						<t t-call="website.s_dynamic_snippet_template">
+							<t t-set="snippet_name" t-value="'s_dynamic_snippet_products'"/>
+						</t>
+						</div>
+					</section>
+				</section>
+			</div>
+
+		</section>
+	</template>
+
+
+	<template id="snippet_bar" inherit_id="website.snippets" name="product bar">
+		<xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+			<t t-snippet="theme_xtream.multiple_product"
+					t-thumbnail="/theme_xtream/static/src/img/bg-img/tes-1.jpg"/>
+		</xpath>
+	</template>
+</odoo>
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<template id="banner_bar" inherit_id="website.snippets" name="Banner">
+		<xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+			<t t-snippet="theme_xtream.banner_wamia"
+					t-thumbnail="/theme_xtream/static/src/img/bg-img/tes-1.jpg"/>
+		</xpath>
+	</template>
+
+	<template id="banner_wamia" name="Banner wamia">
+		<section class="container-fluid">
+				<img src="/theme_xtream/static/src/img/bg-img/bg-2.jpg" alt="" class="img img-fluid img-banner"/>
+
+		</section>
+	</template>
+
+</odoo>

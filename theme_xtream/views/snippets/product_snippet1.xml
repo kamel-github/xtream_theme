@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	
+	
+	<template id="product_snippet" name="product snippet">
+	<section class="s_tabs pt48" data-vcss="001">
+		<div class="container-fluid">
+			<div class="s_tabs_main">
+				<div class="s_tabs_nav mb-3">
+					<div class="btn_text_product">
+						<i class="fa fa-1x fa-desktop m-3 "/>
+						<p class="text_nav">Household Appliances</p>
+					</div>
+					<ul class="nav nav-pills" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" id="nav_tabs_link_1" data-toggle="tab" href="#nav_tabs_content_1" role="tab" aria-controls="nav_tabs_content_1" aria-selected="true">Categorie1</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="nav_tabs_link_2" data-toggle="tab" href="#nav_tabs_content_2" role="tab" aria-controls="nav_tabs_content_2" aria-selected="false">Categorie2</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="nav_tabs_link_3" data-toggle="tab" href="#nav_tabs_content_3" role="tab" aria-controls="nav_tabs_content_3" aria-selected="false">Categorie3</a>
+						</li>
+					</ul>
+
+				</div>
+				
+			</div>
+		</div>
+		<div class="s_tabs_content tab-content">
+			<div class="tab-pane fade show active" id="nav_tabs_content_1" role="tabpanel" aria-labelledby="nav_tabs_link_1">
+				<div class="oe_structure oe_empty">
+					<section class="col-lg-12 s_text_block">
+						<section id="s_dynamic_snippet_products" name="Products wamia" >
+							<t t-call="website.s_dynamic_snippet_template">
+								<t t-set="snippet_name" t-value="'s_dynamic_snippet_products'"/>
+							</t>
+						</section>
+					</section>
+				</div>
+			</div>
+			<div class="tab-pane fade" id="nav_tabs_content_2" role="tabpanel" aria-labelledby="nav_tabs_link_2">
+				<div class="oe_structure oe_empty">
+					<section class="col-lg-12 s_text_block" >
+						<section id="s_dynamic_snippet_products" name="Products wamia" >
+							<t t-call="website.s_dynamic_snippet_template">
+								<t t-set="snippet_name" t-value="'s_dynamic_snippet_products'"/>
+							</t>
+						</section>
+					</section>
+				</div>
+			</div>
+			<div class="tab-pane fade" id="nav_tabs_content_3" role="tabpanel" aria-labelledby="nav_tabs_link_3">
+				<div class="oe_structure oe_empty">
+					<section class="col-lg-12 s_text_block" >
+						<section id="s_dynamic_snippet_products" name="Products wamia" >
+							<t t-call="website.s_dynamic_snippet_template">
+								<t t-set="snippet_name" t-value="'s_dynamic_snippet_products'"/>
+							</t>
+						</section>
+					</section>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+		
+		
+	</template>
+	
+
+
+		<template id="product_snippet_bar" inherit_id="website.snippets" name="produuct bar">
+		<xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+			<t t-snippet="theme_xtream.product_snippet"
+					t-thumbnail="/theme_xtream/static/src/img/bg-img/tes-1.jpg"/>
+		</xpath>
+	</template>
+
+
+	
+	
+	
+
+</odoo>

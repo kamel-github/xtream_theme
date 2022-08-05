@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<template id="s_newsletter_subscribe_form" name="Newsletter">
+		<div class="s_newsletter_subscribe_form js_subscribe" data-vxml="001" data-list-id="0" data-name="Newsletter Form">
+			<div class="input-group">
+				<input type="email" name="email" class="js_subscribe_email form-control" placeholder="your email..."/>
+				<span class="input-group-append">
+					<a role="button" href="#" class="btn btn-primary js_subscribe_btn o_submit">Subs</a>
+					<a role="button" href="#" class="btn btn-success js_subscribed_btn d-none o_submit" disabled="disabled">test</a>
+				</span>
+			</div>
+		</div>
+	</template>
+
+					<template id="s_newsletter_block" name="Nest Newsletter">
+						<section class="s_three_columns o_cc o_cc2 pt32 pb32" data-vcss="001">
+
+							<div class="col-lg-12 s-21">
+								<div class="col-lg-6 m-22">
+								<h2>
+									Stay home &amp; get your daily
+									needs from our shop
+								</h2>
+								<p>Start You'r Daily Shopping with.</p>
+								<t t-snippet-call="website_mass_mailing.s_newsletter_subscribe_form"/>
+							</div>
+								<div class="col-lg-6">
+									<img src="/theme_xtream/static/src/img/bg-img/slider1.png" class="img img-fluid mx-auto" alt=""/>
+								</div>
+							</div>
+
+
+						</section>
+					</template>
+	
+	<template id="news_bar" inherit_id="website.snippets" name="news bar">
+		<xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+			<t t-snippet="theme_xtream.s_newsletter_block"
+					t-thumbnail="/theme_xtream/static/src/img/bg-img/tes-1.jpg"/>
+		</xpath>
+	</template>
+
+</odoo>

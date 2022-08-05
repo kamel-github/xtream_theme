@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<template id="text_block" name="Text">
+		<section class="s_text_block ">
+			<div class="container-fluid s_allow_columns">
+				<h1 class="title-text">Acheter en ligne sur WAMIA :</h1>
+				<p style="padding: 20px;">
+					Avec <strong>Wamia</strong> profitez d'un large choix de produits aux <a href="https://www.wamia.tn/meilleures-ventes" target="_blank" rel="noopener">
+						<strong>meilleur prix</strong>
+					</a>. Nous vous proposons un catalogue diversifié de produits de plusieurs marques aux meilleurs tarifs. Nous sommes une entreprise engagée, notre objectif primordial est la satisfaction des besoins et envies de nos clients. Alors bénéficiez de nos <strong>offres</strong> <strong>promotionnelles</strong> quotidiennes ainsi que nos offres spéciales évènements tels que : les <strong>soldes</strong>, le <strong>Black Friday</strong>, le mois du <strong>Ramadan</strong>, la fête de l'<strong>Aïd</strong>, ou encore les <strong>rentrées scolaires</strong>… Les goûts… ça ne se discute pas ! À chacun son <strong>shopping</strong>, ses préférences et avec <a href="wamia.tn">Wamia</a>, il y en a pour tous les goûts et pour tous les budgets. Faites vos choix et nous vous offrons la garantie d'une <strong>livraison fiable</strong>, rapide et sécurisée, à domicile ou dans l’un de nos 3 points de retrait.
+				</p>
+				<p style="padding: 20px;">
+					Avec WAMIA, profitez également d’une offre de produits du quotidien, <strong>high-tech</strong>, <a href="https://www.wamia.tn/electromenager-tunisie.html" target="_blank" rel="noopener">électroménager</a>, <strong>décoration</strong>, jouets, puériculture, sport, <a href="https://www.wamia.tn/beaute-bien-etre.html">hygiène et beauté</a>, les <strong>bonnes affaires</strong> sont sur <strong>wamia.tn</strong>. N’hésitez pas à consulter les avis ou questions des internautes, ou à parcourir nos guides et tutos, pour vous assurer de faire le meilleur choix ! Découvrez tous les <a href="https://www.wamia.tn/vendre-sur-wamia" target="_blank" rel="noopener">Services WAMIA</a>. Pour vous repérer, consultez le plan du site. Retrouvez l'actualité de WAMIA sur <strong>Youtube</strong> et sur les réseaux sociaux en suivant nos comptes <strong>Facebook</strong> &amp; <strong>Instagram</strong>
+				</p>
+				
+			</div>
+		</section>
+	</template>
+
+	<template id="text_bar" inherit_id="website.snippets" name="text bar">
+		<xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+			<t t-snippet="theme_xtream.text_block"
+					t-thumbnail="/theme_xtream/static/src/img/bg-img/tes-1.jpg"/>
+		</xpath>
+	</template>
+
+</odoo>
